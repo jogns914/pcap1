@@ -103,7 +103,7 @@ void packet_header(unsigned char *user, const struct pcap_pkthdr *h, const unsig
 
 	if(ether_type!=0x0800)
 	{
-		printf("ehter type wrong\n");
+		printf("ether type wrong\n");
 		return 0;
 	}
 	printf("\n============ETHERNET HEADER==========\n");
